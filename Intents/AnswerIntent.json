@@ -1,0 +1,61 @@
+{
+  "id": "99de87e9-dd91-410c-9085-ae2203c59787",
+  "name": "AnswerIntent",
+  "auto": true,
+  "contexts": [
+    "start"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f550473f-8be3-447d-bfb4-e9ef9d202ac5",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529829914,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "49a6875f-552e-44ef-adc9-9a3e581afec9",
+      "data": [
+        {
+          "text": "Answer",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1529829914,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

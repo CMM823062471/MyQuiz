@@ -1,0 +1,60 @@
+{
+  "id": "0285888d-e3ff-44be-a32c-68cdc16932b2",
+  "name": "StartIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529826127,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "213290e5-4ee9-45bd-b485-7310b26079f4",
+      "data": [
+        {
+          "text": "スタート"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1529598130,
+      "isAuto": false
+    },
+    {
+      "id": "f55c22f1-2cb8-4881-a7ff-0c5085ae43fe",
+      "data": [
+        {
+          "text": "次の問題"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1529598130,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

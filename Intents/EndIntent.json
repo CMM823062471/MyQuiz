@@ -1,0 +1,83 @@
+{
+  "id": "a2755a1c-c808-42d7-8c9d-068deb8e2700",
+  "name": "EndIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529548332,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "f8ae6e93-1954-439a-849c-49c1c70e8068",
+      "data": [
+        {
+          "text": "ばいばい"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1529548332,
+      "isAuto": false
+    },
+    {
+      "id": "cf301c96-68e0-44d5-8457-36e1a6745330",
+      "data": [
+        {
+          "text": "終了"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1529548332,
+      "isAuto": false
+    },
+    {
+      "id": "80680ad0-6c08-4cb2-95e4-99f866208014",
+      "data": [
+        {
+          "text": "おしまい"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1529548332,
+      "isAuto": false
+    },
+    {
+      "id": "190e2872-149e-44e7-8f2e-5807ebd1c626",
+      "data": [
+        {
+          "text": "終わり"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1529548332,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
